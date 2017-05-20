@@ -1,4 +1,4 @@
-# BT-UDPT-2 - *Name of your app*
+# BT-UDPT-2 - *LAB02-UDPT*
 
 **LAB02-UDPT** là một bài tập 2 tại môn UDPT. Ứng dụng cho phép người dùng gửi tin nhắn (email) cho người dùng khác.
 

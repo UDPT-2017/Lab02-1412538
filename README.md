@@ -1,9 +1,9 @@
 # BT-UDPT-2 - *Name of your app*
 
-**Name of your app** là một bài tập 2 tại môn UDPT. Ứng dụng cho phép người dùng gửi tin nhắn (email) cho người dùng khác.
+**LAB02-UDPT** là một bài tập 2 tại môn UDPT. Ứng dụng cho phép người dùng gửi tin nhắn (email) cho người dùng khác.
 
 Thành viên:
-* [ ] **MSSV1** Tên sinh viên 1 (tên tài khoản github)
+* [ ] **1412538** Phan Hữu Thuận (RedHair96)
 * [ ] **MSSV2** Tên sinh viên 2 (tên tài khoản github)
 
 URL: **URL hosting của bài tập**

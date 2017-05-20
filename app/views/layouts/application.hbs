@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="/components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  {{>header-layout-application}}
+  <div class="container-fluid">
+    <div class="row row-offcanvas row-offcanvas-left">
+      <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebarLeft" role="navigation">
+        <ul class="nav nav-sidebar">
+          <li class="active"><a href="  "><span>Profile</span><span class="glyphicon glyphicon-user left-menu-div"></span></a></li>
+          <li><a href=""><span>Newsfeed</span><span class="glyphicon glyphicon-list-alt left-menu-div"></span></a></li>
+          <li><a href=""><span>Message</span><span class="glyphicon glyphicon-envelope left-menu-div"></span></a></li>
+          <li><a href=""><span>Setting</span><span class="glyphicon glyphicon-cog left-menu-div"></span></a></li>
+        </ul>
+      </div>
+      <!--/span-->
+
+      <div class="col-xs-12 col-sm-9">
+        <div class="row">
+          {{{body}}}
+        </div>
+      </div>
+    </div>
+    <hr>
+    <footer>
+      <p>© 1412538 - Phan Hữu Thuận - pht2707@gmail.com</p>
+    </footer>
+  </div>
+  <!--/row-->
+
+  <!--/.container-->
+  <script src="/components/jquery/dist/jquery.min.js" charset="utf-8"></script>
+  <script src="/components/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
+  <script src="/js/left-menu-button.js" charset="utf-8"></script>
+</body>
+
+</html>

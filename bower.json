@@ -1,0 +1,20 @@
+{
+  "name": "ttmessage",
+  "description": "send message online",
+  "main": "index.js",
+  "authors": [
+    "RedHair96"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/UDPT-2017/Lab02-1412538",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

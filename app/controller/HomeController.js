@@ -1,6 +1,6 @@
 // home-controller
 var homeController = {
-  index: function(req, res) {
+  index: function(req, res, next) {
     res.render('home/index', {
       page: 'home',
       title: 'HOMEPAGE',

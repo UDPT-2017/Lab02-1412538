@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="/components/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
   {{>header-layout-application}}
   <div class="container-fluid">
@@ -19,20 +20,22 @@
           <li><a href=""><span>Newsfeed</span><span class="glyphicon glyphicon-list-alt left-menu-div"></span></a></li>
           <li><a href=""><span>Message</span><span class="glyphicon glyphicon-envelope left-menu-div"></span></a></li>
           <li><a href=""><span>Setting</span><span class="glyphicon glyphicon-cog left-menu-div"></span></a></li>
+          <li><a href="logout"><span>Logout</span><span class="glyphicon glyphicon-arrow-left left-menu-div"></span></a></li>
         </ul>
       </div>
-      <!--/span-->
-
       <div class="col-xs-12 col-sm-9">
         <div class="row">
           {{{body}}}
         </div>
       </div>
+      <!--/span-->
     </div>
-    <hr>
-    <footer>
-      <p>© 1412538 - Phan Hữu Thuận - pht2707@gmail.com</p>
-    </footer>
+
+  </div>
+  <hr>
+  <footer>
+    <p>© 1412538 - Phan Hữu Thuận - pht2707@gmail.com</p>
+  </footer>
   </div>
   <!--/row-->
 

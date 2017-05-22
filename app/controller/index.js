@@ -1,4 +1,7 @@
 module.exports = {
-  home: require('./homeController'),
-  about: require('./aboutController')
+  login: require('./LoginController'),
+  logout: require('./LogoutController'),
+  register: require('./RegisterController'),
+  home: require('./HomeController'),
+  about: require('./AboutController'),
 }
